@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+double PI = 3.14159;
+double n;
+
+int main() {
+    
+//variaveis de inteiros
+int a;
+int b;
+cout << "numero 1" << endl; // colocar o 1 numero
+cin >> a; // 1 numero
+cout << "numero 2" << endl; // colocar o 2 numero
+cin >> b; // 2 numero
+
+cout <<"o resultado da adição: " << a + b << endl;
+
+cout <<"o resultado da subtração: " << a - b << endl;
+
+cout <<"o resultado da multiplicação: " << a * b << endl;
+
+cout <<"o resultado da divisão: " << a / b << endl;
+
+cout <<"o resultado do resto: " << a % b << endl;
+
+cout << "Qual o valor do raio?: " << endl;
+cin >> n;
+
+cout << PI * (n * n) << endl;
+
+return 0;
+}
