@@ -1,1 +1,19 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+
+//define a variável n como um inteiro
+int n;
+    
+    //pede para colocar um numero (inteiro) para dps multiplicar
+    cout << "Escolhe um número inteiro: ";
+    cin >> n;
+
+    //O ciclo for é utiliizado para iterar de 1 a 10, a cada itrração, o programa exibe a tabuaad do número escolhido pela pessoa
+    for (int i = 1; i <= 10; ++i) {
+        cout << n << " x " << i << " = " << n * i << endl;
+    }
+    
+    return 0;
+}
